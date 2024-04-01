@@ -135,7 +135,19 @@ h6 {
 
 .tsk-container {
     width: 50%;
+
 } 
+
+@media screen and (max-width: 600px) {
+    .add-todo{
+        padding: 2px 2px;
+    }
+
+    .tsk-container {
+        width: 100%;
+    }
+}
+
   
 
   
